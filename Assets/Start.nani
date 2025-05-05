@@ -1,0 +1,45 @@
+@back 1
+@printer Wide
+INT. APARTMENT BASEMENT – LAUNDRY ROOM – 8:01PM
+You’re minding your own business, tossing clothes into one of the washers.
+Door opens. Sheldon walks in precisely on the minute. Notices you. Stops.
+@back laundry_room
+@printer Dialogue
+sheldon: Oh. I see you’re using the laundry room. At 8:01 PM. On a Saturday.
+@choice "Yeah. Is that a problem?" goto:.scene2
+@choice "Oh sorry, is it usually reserved or something?" goto:.scene2
+@choice "…Do we have a signup sheet I missed?" goto:.scene2
+@stop
+
+#scene2
+@back 2
+sheldon: No. Not officially. Merely… historically. I’ve used this room at this precise time, every Saturday, since I moved in. It’s part of my hygiene rhythm.
+@printer Wide
+Sheldon doesn’t scold or argue. He sits on the bench. Pulls out a book. Then gets up. Paces. Sits again. Opens his phone. Starts typing rapidly.
+@printer Dialogue
+player: Uh… everything okay?
+@back 3
+sheldon: Oh, yes. I’m simply recalculating my entire weekend schedule. Since this particular shift has… dislodged the sequence.
+@printer Wide
+@back 4
+He sighs. Loudly. Every 45 seconds.
+
+@printer Dialogue
+@back 5
+penny: Oh boy. You took the laundry slot, didn’t you?
+@choice "There’s a slot?" goto:.scene3
+@choice "Is this a cult?" goto:.scene3
+@stop
+
+#scene3
+penny: Sheldon doesn’t get mad. He just makes you so uncomfortable you start apologizing for your own existence.
+@choice "I can finish quick and let you use the dryer first?" goto:.scene4
+@choice "Do you want to swap schedules next week?" goto:.scene4
+@choice "You want me to leave a ‘reserved for Sheldon’ sticky note here every Saturday?" goto:.scene4
+@stop
+
+#scene4
+@back 2
+sheldon: Hm. A note would be ideal. Color-coded. With initials and timestamp. Ideally laminated.
+
+@stop
